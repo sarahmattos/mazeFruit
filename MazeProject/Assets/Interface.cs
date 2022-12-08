@@ -16,6 +16,7 @@ public class Interface : MonoBehaviour
     void Start()
     {
         instance = this;
+        GameObject.Find("teste").GetComponent<btnContinuarManager>().btnContinuar = 0;
         Time.timeScale = 1f;
     }
 
@@ -58,6 +59,10 @@ public class Interface : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene(0);
+        fabricaXml.instance.escreverXML();
+    }
+    void OnApplicationQuit()
+    {
         fabricaXml.instance.escreverXML();
     }
 

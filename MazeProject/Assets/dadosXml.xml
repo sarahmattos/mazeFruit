@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Dados>
   <PERSONAGEM>
-    <X>1</X>
-    <Y>7</Y>
-    <Timer>49</Timer>
-    <Inicio>1</Inicio>
-    <Frutas>3</Frutas>
-    <Melancia>1</Melancia>
-    <Laranja>1</Laranja>
-    <Abacaxi>1</Abacaxi>
+    <X>-10</X>
+    <Y>-6</Y>
+    <Timer>0</Timer>
+    <Inicio>0</Inicio>
+    <Frutas>0</Frutas>
+    <Melancia>0</Melancia>
+    <Laranja>0</Laranja>
+    <Abacaxi>0</Abacaxi>
   </PERSONAGEM>
 </Dados>

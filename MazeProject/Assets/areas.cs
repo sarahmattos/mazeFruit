@@ -8,12 +8,14 @@ public class areas : MonoBehaviour
     public int frutas;
     private void Start()
     {
+        
         instance = this;
     }
     void OnTriggerEnter2D(Collider2D other) //Make sure to put this out of Voids
     {
         if (other.gameObject.tag == "final")
         {
+            GameObject.Find("teste").GetComponent<btnContinuarManager>().btnContinuar = 1;
             if (frutas == 3)
             {
                 Interface.instance.HudON("Você Venceu");
