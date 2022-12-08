@@ -12,6 +12,8 @@ public class Personagem : MonoBehaviour
     public static Personagem instance;
     public float X { get; set; }
     public float Y { get; set; }
+    public float X2 { get; set; }
+    public float Y2 { get; set; }
     public float Timer { get; set; }
     public int Inicio { get; set; }
     public int Melacia { get; set; }
@@ -26,6 +28,7 @@ public class Personagem : MonoBehaviour
     public TMP_Text tFruta;
     public bool entra = true;
     public float temp = 1f;
+    public Player pa;
 
     void start()
     {
@@ -50,7 +53,7 @@ public class Personagem : MonoBehaviour
         Melacia = fabricaXml.instance.p.Melacia;
         Laranja = fabricaXml.instance.p.Laranja;
         Abacaxi = fabricaXml.instance.p.Abacaxi;
-
+        pa.recuperaP2();
     }
     private void Update()
     {

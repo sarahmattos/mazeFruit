@@ -7,6 +7,9 @@ public class Player : MonoBehaviour
     public int id;
     private Animator anim;
 
+    public string xS, yS;
+    public Vector3 novaPosicao2;
+
     float velocidade;
 
     void Start()
@@ -18,13 +21,23 @@ public class Player : MonoBehaviour
         }
         if (id == 0)
         {
-            velocidade = 0.03f;
+            velocidade = 0.04f;
         }
+    }
+    public void recuperaP2()
+    {
+        Vector3 novaPosicao = transform.position;
+        novaPosicao.x = fabricaXml.instance.p.X2;
+        novaPosicao.y = fabricaXml.instance.p.Y2;
+        transform.position = novaPosicao;
     }
     void Update()
     {
         if (id == 0)
         {
+            novaPosicao2 = transform.position;
+            xS = Mathf.Round(novaPosicao2.x).ToString();
+            yS = Mathf.Round(novaPosicao2.y).ToString();
             if (Input.GetKey(KeyCode.LeftArrow))
             {
                 transform.position = new Vector2(transform.position.x - velocidade, transform.position.y);

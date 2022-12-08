@@ -28,7 +28,7 @@ public class areas : MonoBehaviour
         }
         if (other.gameObject.tag == "inicial")
         {
-            timer.instance.tempoTotal =60f;
+            timer.instance.tempoTotal =75f;
             timer.instance.inicio = true;
             Destroy(other.gameObject);
         }

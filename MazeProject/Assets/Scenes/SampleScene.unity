@@ -5016,7 +5016,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Colete 3 frutas e ache a sa\xEDda"
+  m_text: "Colete 3 frutas, ache a sa\xEDda e n\xE3o deixe seu g\xEAmeo te pegar"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5079,7 +5079,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -279.1059, w: 0}
+  m_margin: {x: 0, y: 0, z: -644.036, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5445,6 +5445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   p: {fileID: 0}
   p2: {fileID: 2100271125}
+  pa: {fileID: 2136915385}
 --- !u!114 &1898281036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5951,6 +5952,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 1
+  xS: 
+  yS: 
+  novaPosicao2: {x: 0, y: 0, z: 0}
 --- !u!61 &2100271121
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6060,6 +6064,7 @@ MonoBehaviour:
   tFruta: {fileID: 1463844913}
   entra: 1
   temp: 1
+  pa: {fileID: 2136915385}
 --- !u!114 &2100271126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6185,6 +6190,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
+  xS: 
+  yS: 
+  novaPosicao2: {x: 0, y: 0, z: 0}
 --- !u!95 &2136915386
 Animator:
   serializedVersion: 4

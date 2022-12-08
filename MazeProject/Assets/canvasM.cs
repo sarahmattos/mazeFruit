@@ -21,5 +21,9 @@ public class canvasM : MonoBehaviour
     {
         GameObject.Find("teste").GetComponent<btnContinuarManager>().aparecerCtz();
     }
+    public void sair()
+    {
+        Application.Quit();
+    }
 
 }

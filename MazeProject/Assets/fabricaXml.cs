@@ -10,6 +10,7 @@ public class fabricaXml : MonoBehaviour
 {
     public static fabricaXml instance;
     public Personagem p, p2;
+    public Player pa;
     public void Start()
     {
         instance = this;
@@ -41,6 +42,8 @@ public class fabricaXml : MonoBehaviour
         writer.WriteElementString("Melancia", p2.Melacia.ToString());
         writer.WriteElementString("Laranja", p2.Laranja.ToString());
         writer.WriteElementString("Abacaxi", p2.Abacaxi.ToString());
+        writer.WriteElementString("X2", pa.xS);
+        writer.WriteElementString("Y2", pa.yS);
         writer.WriteEndElement();
         writer.WriteFullEndElement();
         writer.Close();
@@ -108,6 +111,16 @@ public class fabricaXml : MonoBehaviour
             if (xtr.NodeType == XmlNodeType.Element && xtr.Name == "Abacaxi")
             {
                 p.Abacaxi = xtr.ReadElementContentAsInt();
+
+            }
+            if (xtr.NodeType == XmlNodeType.Element && xtr.Name == "X2")
+            {
+                p.X2 = xtr.ReadElementContentAsFloat();
+
+            }
+            if (xtr.NodeType == XmlNodeType.Element && xtr.Name == "Y2")
+            {
+                p.Y2 = xtr.ReadElementContentAsFloat();
 
             }
         }
