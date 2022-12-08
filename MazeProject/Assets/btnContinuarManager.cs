@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class btnContinuarManager : MonoBehaviour
 {
-    private GameObject btn;
+    
     public int btnContinuar;
     bool aux = true;
     void Start()
@@ -27,6 +27,7 @@ public class btnContinuarManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         int y = SceneManager.GetActiveScene().buildIndex;
         
         if (y == 0 && aux == true)
@@ -46,6 +47,20 @@ public class btnContinuarManager : MonoBehaviour
         {
             aux = true;
         }
+        */
+        
+    }
+    public void aparecerCtz()
+    {
+            if (btnContinuar == 1)
+            {
+            Menu.instance.MainMenu();
+            }
+            else
+            {
+            canvasM.instance.btn.SetActive(true);
+            canvasM.instance.btn2.SetActive(false);
+            }
         
     }
 }

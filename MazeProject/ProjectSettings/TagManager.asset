@@ -8,6 +8,7 @@ TagManager:
   - final
   - Fruta
   - btn
+  - btn2
   layers:
   - Default
   - TransparentFX
