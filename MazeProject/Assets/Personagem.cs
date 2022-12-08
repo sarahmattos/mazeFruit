@@ -1,0 +1,95 @@
+using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+
+public class Personagem : MonoBehaviour
+{
+    public GameObject melanciaGO;
+    public GameObject laranjaGO;
+    public GameObject abacaxiGO;
+
+    public static Personagem instance;
+    public float X { get; set; }
+    public float Y { get; set; }
+    public float Timer { get; set; }
+    public int Inicio { get; set; }
+    public int Melacia { get; set; }
+    public int Abacaxi { get; set; }
+    public int Laranja { get; set; }
+
+    public int nFruta;
+
+    public Vector3 novaPosicao2;
+    public string xS, yS, tS;
+
+    public TMP_Text tFruta;
+    public bool entra = true;
+    public float temp = 1f;
+
+    void start()
+    {
+        instance = this;
+       
+    }
+    public void recuperarInfo()
+    {
+        Vector3 novaPosicao = transform.position;
+        novaPosicao.x = fabricaXml.instance.p.X;
+        novaPosicao.y = fabricaXml.instance.p.Y;
+        transform.position = novaPosicao;
+        timer.instance.tempoTotal = fabricaXml.instance.p.Timer;
+        if (fabricaXml.instance.p.Inicio == 1)
+        {
+            timer.instance.inicio = true;
+        }
+        nFruta= fabricaXml.instance.p.nFruta;
+        if (fabricaXml.instance.p.Melacia == 1) Destroy(melanciaGO);
+        if (fabricaXml.instance.p.Abacaxi == 1) Destroy(abacaxiGO);
+        if (fabricaXml.instance.p.Laranja == 1) Destroy(laranjaGO);
+        Melacia = fabricaXml.instance.p.Melacia;
+        Laranja = fabricaXml.instance.p.Laranja;
+        Abacaxi = fabricaXml.instance.p.Abacaxi;
+
+    }
+    private void Update()
+    {
+        tFruta.SetText(nFruta.ToString());
+        areas.instance.frutas = nFruta;
+        novaPosicao2 = transform.position;
+        xS = Mathf.Round(novaPosicao2.x).ToString();
+        yS = Mathf.Round(novaPosicao2.y).ToString();
+        tS = Mathf.Round(timer.instance.tempoTotal).ToString();
+        if (timer.instance.inicio == true)
+        {
+            Inicio = 1;
+        }
+        else
+        {
+            Inicio = 0;
+        }
+        if (entra == false)
+        {
+            temp -= Time.deltaTime;
+        }
+        if (temp<=0){
+            entra = true;
+            temp = 1f;
+        }
+        
+    }
+    void OnTriggerEnter2D(Collider2D other) //Make sure to put this out of Voids
+    {
+       
+        if (other.gameObject.tag == "Fruta"&& entra==true)
+        {
+            Destroy(other.gameObject);
+            nFruta++;
+            entra = false;
+            if (other.gameObject.layer==6) Melacia = 1;
+            if (other.gameObject.layer == 7) Laranja = 1;
+            if (other.gameObject.layer == 8) Abacaxi = 1;
+        }
+
+    }
+}

@@ -1,0 +1,1355 @@
+fileFormatVersion: 2
+guid: 56c7ff1cffbe6e94dbb23da3b62c0546
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 49
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e264d459270584396c77f0b38231cc
+      internalID: -110447733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 49
+        width: 15
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecc22c336e94c4468cc6e192fc3c70c
+      internalID: -773562277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 49
+        width: 17
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a3449500cfc724da86c17324d4d5c5
+      internalID: 189471517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 49
+        width: 16
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772b5d8757b63304bafb37640e77c1a4
+      internalID: -78785655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 49
+        width: 12
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6b9022e85b8744782b60cbdf89b689
+      internalID: -1675754485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 49
+        width: 13
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4759c0748b0803342bea1fba7c02938f
+      internalID: 1627638337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 49
+        width: 13
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4853a94662210a14cb1aa48d92055251
+      internalID: -865644553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 49
+        width: 14
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39b5491f5b2cbf4b8a8f42fa622be8c
+      internalID: 99684966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 49
+        width: 16
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcdf298d08f1614292c9df28caf54b0
+      internalID: -1090598352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 50
+        width: 14
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84d5b75472da854796d79fb5a5fee04
+      internalID: 797710089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 49
+        width: 13
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698ce9dbf5763e140bbb0dc9c234f998
+      internalID: 2070409845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 50
+        width: 14
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3501cc676822c15478a5b4295a055d6b
+      internalID: -995028841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 50
+        width: 16
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab94a197cb7bde54da34f9fb602287f4
+      internalID: -1660147815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 50
+        width: 14
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e0c8bf943145c48ab7a788d0146cae
+      internalID: -2028204130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 26
+        width: 11
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2053273e860da449bf89355c37c6b0
+      internalID: -927506960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 26
+        width: 11
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a15bea137f0709428a118ef5ec6a6eb
+      internalID: -636119340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 26
+        width: 14
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2cc9ac39897ed4dbb4422951ea6a0f
+      internalID: 715550686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 26
+        width: 13
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bf65ae84cfc3241a85f12fc9ce0a72
+      internalID: 1636660147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 26
+        width: 15
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af25f8460ac96344b4279d0630c584d
+      internalID: -504670359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 26
+        width: 15
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d6a3e10c184ae459f4bb64dd6a05ac
+      internalID: -1186823658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 26
+        width: 13
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eae3e467c3f63746be7a755a0a7ccf6
+      internalID: 898074168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 26
+        width: 14
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f133020a99211164eb4213dae4fd5af4
+      internalID: 172922306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 26
+        width: 11
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8c57ee17484b0449fd5c98e1b2d9f4
+      internalID: -1101888287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 26
+        width: 11
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510402da724b95143b40e62d000c56ac
+      internalID: 476458153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 26
+        width: 11
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83223baec16bc84984584f4b5a2f0b8
+      internalID: 1378875089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 26
+        width: 12
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191c9ce90befa6c47945e48b1c438851
+      internalID: 727199175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 26
+        width: 14
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57be0f0fbfaf354da44db0076066840
+      internalID: -736848434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 26
+        width: 13
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c4d2564cde43747a4fdeace01ac41c
+      internalID: 1572762238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 27
+        width: 11
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc20db39ac594c48a57b4811902129d
+      internalID: -1077966688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 27
+        width: 12
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f70ec107472f1d469ce7e0bc0fdf94e
+      internalID: 633919344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 26
+        width: 10
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47911db52a9992447a71a6b8bda1de9b
+      internalID: 1358442318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 26
+        width: 10
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c339096936ccfc45a9689fbfdba0076
+      internalID: -1085530792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 27
+        width: 11
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ba1462b12f7ee4581d6368420f9a5a
+      internalID: -1451005214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 27
+        width: 11
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216e9816bf8f0c547b74b0e48e4d4169
+      internalID: -1831096822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 26
+        width: 14
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e250c15a4f44fca40a182c485e59fbdb
+      internalID: 2112805175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 26
+        width: 14
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ab1476079dfbf418564227325af3af
+      internalID: 1287757617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 27
+        width: 11
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706f41e1ae2a621479bb96c3b7e1178a
+      internalID: 929864729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 27
+        width: 11
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a96dad8390cbf44856841733712bd1
+      internalID: -1249495781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 26
+        width: 11
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d90aa5457ccad43b8fa618ea36beb3
+      internalID: -1357042892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 26
+        width: 10
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dadfdce45f717142a415a8b02f9b806
+      internalID: -1496599385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 27
+        width: 11
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccaa4e6bceb47ad4fbf9dcdb54aec9a5
+      internalID: -631911738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 27
+        width: 11
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac41b461418cb3b48a133bf241a9b10c
+      internalID: -304283030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933a23c9ade15ad4bb60caa6279160f1
+      internalID: 1977643162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 2
+        width: 15
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a7ad8028c8a3e458e355d4e9678a06
+      internalID: -1293254608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 2
+        width: 17
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830597485c9a0dd48a7a446df49d67e6
+      internalID: -936133422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 2
+        width: 16
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c759ea0f1b4d13428a7211fcda04e75
+      internalID: -1059416708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 2
+        width: 12
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50125dbd7e1061d4c9fe90f4443d8f9b
+      internalID: 126269326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 2
+        width: 13
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1845e975bed96544adece725409c25d
+      internalID: 1965695958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2
+        width: 13
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fa927fd4d89724da7144f3521b441b
+      internalID: 961399980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 4
+        width: 14
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba78d3356d8a6447880df1fccc78927
+      internalID: -1727602102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 4
+        width: 16
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bb1caa7a5c13e4e8bf1bd3c3bbc0cf
+      internalID: -1753359130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 4
+        width: 14
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812dce5b6a374f941906b51965a94b1d
+      internalID: 19352957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 2
+        width: 13
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbee5b4ce16b8c141917cd11186e4438
+      internalID: 1450879555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 4
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e07981743d8284fb3eaad7584386f7
+      internalID: -1800613123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 3
+        width: 16
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4142c1fe0cd7f5942a5bfd2fbd0ce32d
+      internalID: 1518327173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemPrincipal-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 3
+        width: 14
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bcf6ab4e3599049bffbc0e55f787a1
+      internalID: 940376087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PersonagemPrincipal-Sheet_12: -1660147815
+      PersonagemPrincipal-Sheet_44: -936133422
+      PersonagemPrincipal-Sheet_43: -1293254608
+      PersonagemPrincipal-Sheet_24: 1378875089
+      PersonagemPrincipal-Sheet_2: 189471517
+      PersonagemPrincipal-Sheet_38: -1357042892
+      PersonagemPrincipal-Sheet_41: -304283030
+      PersonagemPrincipal-Sheet_9: 797710089
+      PersonagemPrincipal-Sheet_25: 727199175
+      PersonagemPrincipal-Sheet_30: 1358442318
+      PersonagemPrincipal-Sheet_40: -631911738
+      PersonagemPrincipal-Sheet_0: -110447733
+      PersonagemPrincipal-Sheet_31: -1085530792
+      PersonagemPrincipal-Sheet_29: 633919344
+      PersonagemPrincipal-Sheet_23: 476458153
+      PersonagemPrincipal-Sheet_36: 929864729
+      PersonagemPrincipal-Sheet_14: -927506960
+      PersonagemPrincipal-Sheet_45: -1059416708
+      PersonagemPrincipal-Sheet_55: 940376087
+      PersonagemPrincipal-Sheet_52: 1450879555
+      PersonagemPrincipal-Sheet_27: 1572762238
+      PersonagemPrincipal-Sheet_5: 1627638337
+      PersonagemPrincipal-Sheet_32: -1451005214
+      PersonagemPrincipal-Sheet_7: 99684966
+      PersonagemPrincipal-Sheet_35: 1287757617
+      PersonagemPrincipal-Sheet_46: 126269326
+      PersonagemPrincipal-Sheet_11: -995028841
+      PersonagemPrincipal-Sheet_33: -1831096822
+      PersonagemPrincipal-Sheet_19: -1186823658
+      PersonagemPrincipal-Sheet_13: -2028204130
+      PersonagemPrincipal-Sheet_17: 1636660147
+      PersonagemPrincipal-Sheet_54: 1518327173
+      PersonagemPrincipal-Sheet_48: 961399980
+      PersonagemPrincipal-Sheet_4: -1675754485
+      PersonagemPrincipal-Sheet_34: 2112805175
+      PersonagemPrincipal-Sheet_50: -1753359130
+      PersonagemPrincipal-Sheet_49: -1727602102
+      PersonagemPrincipal-Sheet_1: -773562277
+      PersonagemPrincipal-Sheet_20: 898074168
+      PersonagemPrincipal-Sheet_10: 2070409845
+      PersonagemPrincipal-Sheet_8: -1090598352
+      PersonagemPrincipal-Sheet_39: -1496599385
+      PersonagemPrincipal-Sheet_6: -865644553
+      PersonagemPrincipal-Sheet_42: 1977643162
+      PersonagemPrincipal-Sheet_18: -504670359
+      PersonagemPrincipal-Sheet_15: -636119340
+      PersonagemPrincipal-Sheet_16: 715550686
+      PersonagemPrincipal-Sheet_28: -1077966688
+      PersonagemPrincipal-Sheet_3: -78785655
+      PersonagemPrincipal-Sheet_21: 172922306
+      PersonagemPrincipal-Sheet_37: -1249495781
+      PersonagemPrincipal-Sheet_47: 1965695958
+      PersonagemPrincipal-Sheet_51: 19352957
+      PersonagemPrincipal-Sheet_26: -736848434
+      PersonagemPrincipal-Sheet_53: -1800613123
+      PersonagemPrincipal-Sheet_22: -1101888287
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
