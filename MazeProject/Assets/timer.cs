@@ -29,7 +29,7 @@ public class timer : MonoBehaviour
         if (tempoTotal <= 0 && inicio==true)
         {
             GameObject.Find("teste").GetComponent<btnContinuarManager>().btnContinuar = 1;
-            Interface.instance.HudON("Você Perdeu");
+            Interface.instance.HudON("O mal venceu");
         }
     }
     public string FormatarTempo(int val)

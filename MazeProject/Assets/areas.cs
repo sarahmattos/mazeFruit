@@ -18,17 +18,17 @@ public class areas : MonoBehaviour
             GameObject.Find("teste").GetComponent<btnContinuarManager>().btnContinuar = 1;
             if (frutas == 3)
             {
-                Interface.instance.HudON("Você Venceu");
+                Interface.instance.HudON("O bem venceu");
             }
             else
             {
-                Interface.instance.HudON("Você não coletou as 3 frutas!");
+                Interface.instance.HudON("O mal venceu, frutas não coletadas!");
             }
             
         }
         if (other.gameObject.tag == "inicial")
         {
-            timer.instance.tempoTotal =90f;
+            timer.instance.tempoTotal =60f;
             timer.instance.inicio = true;
             Destroy(other.gameObject);
         }
