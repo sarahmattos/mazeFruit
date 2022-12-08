@@ -26,7 +26,7 @@ public class fabricaXml : MonoBehaviour
     public void escreverXML()
     {
         Debug.Log("escreveu dados: " + p2.X + " " + p2.Y);
-        XmlTextWriter writer = new XmlTextWriter(@"C:\Users\sarah\OneDrive\Documentos\GitHub\MazeProject\Assets\info.xml", null);
+        XmlTextWriter writer = new XmlTextWriter(@"C:\Users\sarah\OneDrive\Documentos\GitHub\mazeFruit\MazeProject\Assets\dadosXml.xml", null);
         writer.WriteStartDocument();
         writer.Formatting = Formatting.Indented;
         writer.WriteStartElement("Dados");
@@ -47,7 +47,7 @@ public class fabricaXml : MonoBehaviour
     }
     public string lerXMLDeArquivo()
     {
-        return System.IO.File.ReadAllText(@"C:\Users\sarah\OneDrive\Documentos\GitHub\MazeProject\Assets\info.xml");
+        return System.IO.File.ReadAllText(@"C:\Users\sarah\OneDrive\Documentos\GitHub\mazeFruit\MazeProject\Assets\dadosXml.xml");
     }
     public string lerXMLDeArquivo(string caminho)
     {

@@ -58,7 +58,7 @@ public class Interface : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene(0);
-        //fabricaXml.instance.escreverXML();
+        fabricaXml.instance.escreverXML();
     }
 
 }
