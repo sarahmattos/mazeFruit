@@ -7,7 +7,7 @@ public class btnContinuarManager : MonoBehaviour
 {
     
     public int btnContinuar;
-    bool aux = true;
+    //bool aux = true;
     void Start()
     {
         int numMenu = FindObjectsOfType<btnContinuarManager>().Length;
