@@ -16,7 +16,7 @@ public class Menu : MonoBehaviour
     }
     public void continuarTrue()
     {
-        continuar = true;
+        //continuar = true;
     }
     public void MainMenu()
     {
