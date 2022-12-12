@@ -1,5 +1,12 @@
 {
-    "Name": "Nat",
-    "x1": 5,
-    "x2": 6
+    "x1": 4.0,
+    "x2": 4.0,
+    "y1": 4.0,
+    "y2": 4.0,
+    "timer": 40.0,
+    "inicio": 4,
+    "frutas": 4,
+    "melancia": 4,
+    "laranja": 4,
+    "abacaxi": 4
 }

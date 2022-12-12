@@ -9,13 +9,9 @@ public class Batata
 
 {
    private string path = @"C:\Users\sarah\OneDrive\Documentos\GitHub\mazeFruit\MazeProject\Assets\Batata.json";
-   public string Name;
-   public int x1;
-   public int x2;
+   public float x1, x2, y1, y2, timer;
+   public int inicio, frutas, melancia, laranja, abacaxi; 
 
-    public void PowerUp(int bonus){
-        x1+=bonus;
-    }
 
     public void Save(){
         var content = JsonUtility.ToJson(this,true);
@@ -24,7 +20,14 @@ public class Batata
     public void Load(){
         var content = File.ReadAllText(path);
         var p = JsonUtility.FromJson<Batata>(content);
-        Name= p.Name;
+        y1= p.y1;
+        y2= p.y2;
+        timer= p.timer;
+        inicio= p.inicio;
+        frutas= p.frutas;
+        melancia= p.melancia;
+        laranja= p.laranja;
+        abacaxi= p.abacaxi;
         x1 = p.x1;
         x2= p.x2;
     }
