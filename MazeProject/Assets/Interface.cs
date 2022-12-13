@@ -60,7 +60,7 @@ public class Interface : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene(0);
-        bC.batata.Save();
+        bC.Salvar();
     }
     void OnApplicationQuit()
     {
