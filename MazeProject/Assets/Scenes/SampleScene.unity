@@ -3954,6 +3954,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1898281033}
+        m_TargetAssemblyTypeName: Interface, Assembly-CSharp
+        m_MethodName: MainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1028685669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6103,6 +6115,7 @@ MonoBehaviour:
   textHud: {fileID: 2040042419}
   bnt: {fileID: 1444922490}
   bnt2: {fileID: 786241646}
+  bC: {fileID: 1484646218}
 --- !u!4 &1898281034
 Transform:
   m_ObjectHideFlags: 0
@@ -7011,7 +7024,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136915378}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.5, y: 4.94, z: 0}
+  m_LocalPosition: {x: 7.47, y: 4.94, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:

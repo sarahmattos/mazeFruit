@@ -10,7 +10,12 @@ public class BatataController : MonoBehaviour
     void Start()
     {
         batata = new Batata();
-        Carregar();
+        if (Menu.instance.continuar == true)
+        {
+           Carregar();
+           Menu.instance.continuar=false;
+        }
+        
     }
     
      public void Carregar()

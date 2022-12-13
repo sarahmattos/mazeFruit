@@ -12,6 +12,7 @@ public class Interface : MonoBehaviour
     public TMP_Text textHud;
     public GameObject bnt;
     public GameObject bnt2;
+    public BatataController bC;
     // Start is called before the first frame update
     void Start()
     {
@@ -59,7 +60,7 @@ public class Interface : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene(0);
-        //fabricaXml.instance.escreverXML();
+        bC.batata.Save();
     }
     void OnApplicationQuit()
     {
