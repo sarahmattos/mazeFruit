@@ -12,6 +12,7 @@ public class Batata
    public float x1, x2, y1, y2, timer;
    public int inicio, frutas, melancia, laranja, abacaxi; 
    public Personagem p2;
+   public Player pa;
 
 
     public void Save(){
@@ -33,6 +34,7 @@ public class Batata
         x1 = p.x1;
         x2= p.x2;
         p2.atualizarJson(x1,y1, timer, inicio, frutas, melancia, laranja, abacaxi);
+        pa.atualizarJson(x2,y2);
     }
 
 }

@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     private Animator anim;
 
     public string xS, yS;
+    public float xx, yy;
     public Vector3 novaPosicao2;
 
     float velocidade;
@@ -31,6 +32,13 @@ public class Player : MonoBehaviour
         novaPosicao.y = fabricaXml.instance.p.Y2;
         transform.position = novaPosicao;
     }
+    public void atualizarJson(float x, float y)
+    {
+        Vector3 novaPosicao3 = transform.position;
+        novaPosicao3.x = x;
+        novaPosicao3.y = y;
+        transform.position = novaPosicao3;
+    }
     void Update()
     {
         if (id == 0)
@@ -38,6 +46,8 @@ public class Player : MonoBehaviour
             novaPosicao2 = transform.position;
             xS = Mathf.Round(novaPosicao2.x).ToString();
             yS = Mathf.Round(novaPosicao2.y).ToString();
+            xx = novaPosicao2.x;
+            yy= novaPosicao2.y;
             if (Input.GetKey(KeyCode.LeftArrow))
             {
                 transform.position = new Vector2(transform.position.x - velocidade, transform.position.y);
