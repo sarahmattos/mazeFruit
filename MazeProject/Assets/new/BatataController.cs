@@ -10,7 +10,7 @@ public class BatataController : MonoBehaviour
     void Start()
     {
         batata = new Batata();
-        //Carregar();
+        Carregar();
     }
     
      public void Carregar()

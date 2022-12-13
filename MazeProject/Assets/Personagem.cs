@@ -93,7 +93,9 @@ public class Personagem : MonoBehaviour
         novaPosicao3.y = y;
         transform.position = novaPosicao3;
         timer.instance.tempoTotal =t;
-        Inicio = i;
+        if(i==1){
+            timer.instance.inicio = true;
+        }
         nFruta = n;
         Melacia =m;
         Laranja = l;
