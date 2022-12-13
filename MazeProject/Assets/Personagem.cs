@@ -57,6 +57,9 @@ public class Personagem : MonoBehaviour
     }
     private void Update()
     {
+        if (Melacia == 1) Destroy(melanciaGO);
+        if (Abacaxi == 1) Destroy(abacaxiGO);
+        if (Laranja == 1) Destroy(laranjaGO);
         tFruta.SetText(nFruta.ToString());
         areas.instance.frutas = nFruta;
         novaPosicao2 = transform.position;
@@ -84,12 +87,17 @@ public class Personagem : MonoBehaviour
         }
         
     }
-    public void atualizarJson(float x , float y, float t){
+    public void atualizarJson(float x , float y, float t, int i, int n, int m, int l , int a){
         Vector3 novaPosicao3 = transform.position;
         novaPosicao3.x = x;
         novaPosicao3.y = y;
         transform.position = novaPosicao3;
         timer.instance.tempoTotal =t;
+        Inicio = i;
+        nFruta = n;
+        Melacia =m;
+        Laranja = l;
+        Abacaxi = a;
     }
     void OnTriggerEnter2D(Collider2D other) //Make sure to put this out of Voids
     {

@@ -34,6 +34,11 @@ public class BatataController : MonoBehaviour
          batata.x1 = batata.p2.xx;
          batata.y1 = batata.p2.yy;
          batata.timer = batata.p2.tt;
+         batata.inicio = batata.p2.Inicio;
+         batata.frutas = batata.p2.nFruta;
+         batata.melancia= batata.p2.Melacia;
+         batata.laranja= batata.p2.Laranja;
+         batata.abacaxi= batata.p2.Abacaxi;
          batata.Save();
     }
     public void Atualizar()

@@ -32,7 +32,7 @@ public class Batata
         abacaxi= p.abacaxi;
         x1 = p.x1;
         x2= p.x2;
-        p2.atualizarJson(x1,y1, timer);
+        p2.atualizarJson(x1,y1, timer, inicio, frutas, melancia, laranja, abacaxi);
     }
 
 }
