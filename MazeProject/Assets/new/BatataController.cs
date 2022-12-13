@@ -5,46 +5,37 @@ using UnityEngine;
 public class BatataController : MonoBehaviour
 {
     public Batata batata;
+    public Personagem p2;
+    public Player pa;
     void Start()
     {
         batata = new Batata();
-        /*batata.y1= 6f;
-        batata.y2= 8f;
-        batata.timer= 50f;
-        batata.inicio= 1;
-        batata.frutas= 2;
-        batata.melancia= 1;
-        batata.laranja= 1;
-        batata.abacaxi= 0;
-        batata.x1 = 10f;
-        batata.x2= 2f;
-       */
-        //batata.Load();
+        //Carregar();
     }
-    public void Update(){
-
-    }
-    // Update is called once per frame
+    
      public void Carregar()
     {
         batata.Load();
+        p2.atualizarJson(batata.x1, batata.y1, batata.timer, batata.inicio, batata.frutas, batata.melancia, batata.laranja, batata.abacaxi);
+        pa.atualizarJson(batata.x2,batata.y2);
     }
     public void Salvar()
     {   
-         batata.x1 = batata.p2.xx;
-         batata.y1 = batata.p2.yy;
-         batata.timer = batata.p2.tt;
-         batata.inicio = batata.p2.Inicio;
-         batata.frutas = batata.p2.nFruta;
-         batata.melancia= batata.p2.Melacia;
-         batata.laranja= batata.p2.Laranja;
-         batata.abacaxi= batata.p2.Abacaxi;
-         batata.x2 =batata.pa.xx;
-         batata.y2 =batata.pa.yy;
+         batata.x1 = p2.xx;
+         batata.y1 = p2.yy;
+         batata.timer = p2.tt;
+         batata.inicio = p2.Inicio;
+         batata.frutas = p2.nFruta;
+         batata.melancia= p2.Melacia;
+         batata.laranja= p2.Laranja;
+         batata.abacaxi= p2.Abacaxi;
+         batata.x2 =pa.xx;
+         batata.y2 =pa.yy;
          batata.Save();
     }
-    public void Atualizar()
+    
+    void OnApplicationQuit()
     {
-        
+        Salvar();
     }
 }

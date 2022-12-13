@@ -1,18 +1,15 @@
 {
-    "x1": -6.0,
+    "x1": -8.0,
     "x2": 7.734363079071045,
-    "y1": -1.0,
+    "y1": -4.0,
     "y2": -5.974362850189209,
     "timer": 54.884674072265628,
-    "inicio": 1,
-    "frutas": 0,
-    "melancia": 0,
+    "inicio": 0,
+    "frutas": 1,
+    "melancia": 1,
     "laranja": 0,
     "abacaxi": 0,
-    "p2": {
-        "instanceID": 60132
-    },
     "pa": {
-        "instanceID": 60144
+        "instanceID": 0
     }
 }
