@@ -11,9 +11,11 @@ public class Batata
    private string path = @"C:\Users\sarah\OneDrive\Documentos\GitHub\mazeFruit\MazeProject\Assets\Batata.json";
    public float x1, x2, y1, y2, timer;
    public int inicio, frutas, melancia, laranja, abacaxi; 
+   public Personagem p2;
 
 
     public void Save(){
+        
         var content = JsonUtility.ToJson(this,true);
         File.WriteAllText(path,content);
     }
@@ -30,6 +32,7 @@ public class Batata
         abacaxi= p.abacaxi;
         x1 = p.x1;
         x2= p.x2;
+        p2.atualizarJson(x1,y1, timer);
     }
 
 }

@@ -24,7 +24,7 @@ public class Personagem : MonoBehaviour
 
     public Vector3 novaPosicao2;
     public string xS, yS, tS;
-
+    public float xx, yy, tt;
     public TMP_Text tFruta;
     public bool entra = true;
     public float temp = 1f;
@@ -62,6 +62,9 @@ public class Personagem : MonoBehaviour
         novaPosicao2 = transform.position;
         xS = Mathf.Round(novaPosicao2.x).ToString();
         yS = Mathf.Round(novaPosicao2.y).ToString();
+        xx = Mathf.Round(novaPosicao2.x);
+        yy = Mathf.Round(novaPosicao2.y);
+        tt = timer.instance.tempoTotal;
         tS = Mathf.Round(timer.instance.tempoTotal).ToString();
         if (timer.instance.inicio == true)
         {
@@ -80,6 +83,13 @@ public class Personagem : MonoBehaviour
             temp = 1f;
         }
         
+    }
+    public void atualizarJson(float x , float y, float t){
+        Vector3 novaPosicao3 = transform.position;
+        novaPosicao3.x = x;
+        novaPosicao3.y = y;
+        transform.position = novaPosicao3;
+        timer.instance.tempoTotal =t;
     }
     void OnTriggerEnter2D(Collider2D other) //Make sure to put this out of Voids
     {

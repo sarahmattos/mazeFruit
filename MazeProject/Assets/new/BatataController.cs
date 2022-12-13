@@ -16,15 +16,28 @@ public class BatataController : MonoBehaviour
         batata.melancia= 1;
         batata.laranja= 1;
         batata.abacaxi= 0;
-        batata.x1 = 10f;
+        //batata.x1 = 10f;
         batata.x2= 2f;
-        batata.Save();
+       
         //batata.Load();
     }
+    public void Update(){
 
+    }
     // Update is called once per frame
      public void Carregar()
     {
         batata.Load();
+    }
+    public void Salvar()
+    {   
+         batata.x1 = batata.p2.xx;
+         batata.y1 = batata.p2.yy;
+         batata.timer = batata.p2.tt;
+         batata.Save();
+    }
+    public void Atualizar()
+    {
+        
     }
 }

@@ -63,7 +63,8 @@ public class Interface : MonoBehaviour
     }
     void OnApplicationQuit()
     {
-        fabricaXml.instance.escreverXML();
+        //fabricaXml.instance.escreverXML();
+        //aqui tbm
     }
 
 }
