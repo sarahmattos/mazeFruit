@@ -57,9 +57,7 @@ public class Personagem : MonoBehaviour
     }
     private void Update()
     {
-        if (Melacia == 1) Destroy(melanciaGO);
-        if (Abacaxi == 1) Destroy(abacaxiGO);
-        if (Laranja == 1) Destroy(laranjaGO);
+        
         tFruta.SetText(nFruta.ToString());
         areas.instance.frutas = nFruta;
         novaPosicao2 = transform.position;
@@ -100,6 +98,9 @@ public class Personagem : MonoBehaviour
         Melacia =m;
         Laranja = l;
         Abacaxi = a;
+        if (Melacia == 1) Destroy(melanciaGO);
+        if (Abacaxi == 1) Destroy(abacaxiGO);
+        if (Laranja == 1) Destroy(laranjaGO);
     }
     void OnTriggerEnter2D(Collider2D other) //Make sure to put this out of Voids
     {
